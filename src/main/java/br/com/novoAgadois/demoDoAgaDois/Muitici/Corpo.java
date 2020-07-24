@@ -13,7 +13,7 @@ public class Corpo {
 
     int altura;
 
-    @OneToOne
+    /*@OneToOne
     @JoinColumn(name = "Pessoa_ID")
-    Pessoa pessoas;
+    Pessoa pessoas;*/
 }

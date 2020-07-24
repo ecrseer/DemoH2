@@ -13,12 +13,12 @@ import java.util.List;
 
 public class Pessoa {
 
-    @Id int id;
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE) int id;
     String nome;
 
-    @OneToOne
+    /*@OneToOne
     @JoinColumn(name = "CORPO_ID")
-    Corpo corpo;
+    Corpo corpo;*/
 
 
     @OneToMany
