@@ -2,7 +2,7 @@ package br.com.novoAgadois.demoDoAgaDois.Muitici;
 
 import javax.persistence.*;
 
-@Entity
+@Entity(name = "robbie")
 public class Hobbie {
 
     @Id
