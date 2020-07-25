@@ -1,4 +1,4 @@
-package br.com.novoAgadois.demoDoAgaDois.Controles;
+package br.com.novoAgadois.demoDoAgaDois.Controles.olx;
 
 import br.com.novoAgadois.demoDoAgaDois.Muitici.Pessoa;
 

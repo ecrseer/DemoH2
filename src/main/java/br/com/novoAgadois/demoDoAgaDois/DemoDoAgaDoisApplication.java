@@ -1,9 +1,6 @@
 package br.com.novoAgadois.demoDoAgaDois;
 
-import br.com.novoAgadois.demoDoAgaDois.Controles.ctrlPessoa;
 import br.com.novoAgadois.demoDoAgaDois.Muitici.Pessoa;
-import modelos.Casa;
-import modelos.Residencia;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
