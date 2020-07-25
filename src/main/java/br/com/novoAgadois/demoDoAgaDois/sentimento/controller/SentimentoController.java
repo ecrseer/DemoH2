@@ -14,7 +14,7 @@ public class SentimentoController {
     private SentimentoService sentimentoService;
 
     @PostMapping
-    public Sentimento save(@RequestBody Sentimento sentimen){return this.sentimentoService.save(sentimen)}
+    public Sentimento save(@RequestBody Sentimento sentimen){return this.sentimentoService.save(sentimen);}
     @GetMapping
     public Iterable<Sentimento> findAll(){
         return this.sentimentoService.findAll();

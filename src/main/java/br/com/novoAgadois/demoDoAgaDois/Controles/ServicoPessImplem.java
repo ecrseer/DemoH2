@@ -2,16 +2,19 @@ package br.com.novoAgadois.demoDoAgaDois.Controles;
 
 import br.com.novoAgadois.demoDoAgaDois.Muitici.Pessoa;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ServicoPessImplem implements ServicoPessoa {
-    @Autowired RepoPessoa reposito;
+    @Autowired
+    private RepoPessoa reposito;
 
 
     @Override
     public List<Pessoa> findAll() {
-        return null;
+        return reposito.findAll();
     }
 
     @Override
