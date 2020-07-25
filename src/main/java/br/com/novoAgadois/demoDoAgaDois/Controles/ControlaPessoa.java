@@ -8,10 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/Pessoa")
+@RequestMapping("/pessoa")
 public class ControlaPessoa {
     @Autowired
     ServicoPessoa servico;
+
+    public Iterable<Pessoa> findAll(){return servico.findAll();}
 
     @PostMapping
     public Pessoa save(@RequestBody Pessoa pes){return servico.save(pes);}
